@@ -10,7 +10,7 @@ public class Bevegelse : MonoBehaviour
 
     void Start()
     {
-        mSpeed = 7f;
+        mSpeed = 10f;
         rb = GetComponent<Rigidbody>();
     }
     void Update()
